@@ -1,0 +1,32 @@
+/* style.css */
+
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== ROOT COLORS ===== */
+:root {
+  --bg-dark: #0b0f1a;
+  --bg-light: #11162a;
+  --primary: #4f8cff;
+  --secondary: #7b5cff;
+  --text-main: #ffffff;
+  --text-muted: #b0b6d3;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --border-glow: rgba(79, 140, 255, 0.4);
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #0b0f1a, #11162a);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+/* ===== COMMON ===== */
+.section {
+  padding:
